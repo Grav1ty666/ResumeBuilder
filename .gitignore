@@ -1,0 +1,15 @@
+# 构建产物
+build/
+dist/
+__pycache__/
+*.spec
+
+# 独立 EXE（交付物是安装包，见 GitHub Releases）
+ResumeBuilder.exe
+
+# 安装包不进 git 历史，作为 GitHub Release 资源发布
+installer/ResumeBuilder_Setup.exe
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
